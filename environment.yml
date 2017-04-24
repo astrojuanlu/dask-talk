@@ -1,0 +1,15 @@
+name: dask36
+channels:
+- conda-forge
+- bokeh
+- defaults
+dependencies:
+- python>=3.6
+- jupyter
+- pandas
+- bokeh
+- dask
+- distributed
+- graphviz
+- pip:
+  - graphviz
