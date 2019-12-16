@@ -95,3 +95,4 @@ data/*.csv
 
 *.slides.html
 mydask.png
+dask-worker-space/
