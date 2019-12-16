@@ -1,3 +1,5 @@
 jupyterlab
 dask[complete]
 graphviz
+ipywidgets
+matplotlib
