@@ -1,2 +1,10 @@
-# dask-talk
-Talk about Dask
+# Computación distribuida en Python à la Spark
+
+## Installation
+
+Install dependencies using
+
+```
+$ pip install -r requirements.txt
+$ jupyter labextension install dask-labextension
+```
