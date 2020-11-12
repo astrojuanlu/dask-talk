@@ -1,5 +1,7 @@
-jupyterlab
+black==20.08b1
 dask[complete]
 graphviz
 ipywidgets
+jupyterlab
 matplotlib
+rise
