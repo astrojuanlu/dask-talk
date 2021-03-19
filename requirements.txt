@@ -4,6 +4,8 @@
 #
 #    pip-compile
 #
+argon2-cffi==20.1.0
+    # via notebook
 attrs==19.3.0
     # via jsonschema
 backcall==0.2.0
@@ -14,6 +16,8 @@ bokeh==2.1.1
     # via dask
 certifi==2020.6.20
     # via requests
+cffi==1.14.5
+    # via argon2-cffi
 chardet==3.0.4
     # via requests
 click==7.1.2
@@ -109,7 +113,7 @@ nbformat==5.0.7
     #   ipywidgets
     #   nbconvert
     #   notebook
-notebook==6.0.3
+notebook==6.1.5
     # via
     #   jupyterlab
     #   jupyterlab-server
@@ -148,6 +152,8 @@ ptyprocess==0.6.0
     # via
     #   pexpect
     #   terminado
+pycparser==2.20
+    # via cffi
 pygments==2.6.1
     # via
     #   ipython
@@ -181,6 +187,7 @@ send2trash==1.5.0
     # via notebook
 six==1.15.0
     # via
+    #   argon2-cffi
     #   bleach
     #   cycler
     #   jsonschema
