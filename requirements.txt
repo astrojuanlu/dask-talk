@@ -10,7 +10,7 @@ attrs==19.3.0
     # via jsonschema
 backcall==0.2.0
     # via ipython
-bleach==3.1.5
+bleach==3.3.0
     # via nbconvert
 bokeh==2.1.1
     # via dask
